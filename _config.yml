@@ -1,0 +1,67 @@
+# Site settings
+title: "Brian's Resume (brians-resume)"
+description: "A resume for Brian Bauska on GitHub Pages site; https://bbauska.github.io/brians-resume/"
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Resume settings
+resume_avatar:                  "true"
+resume_name:                    "Brian A. Bauska"
+resume_title:                   "IT Database/Systems Analyst"
+
+# used for the contact button in _layouts/resume.html
+resume_contact_email:           "brianbauska@gmail.com"
+
+# the next two items are used for schema itemprops in _layouts/resume.html
+resume_contact_telephone:       "425-319-2332"
+resume_contact_address:         "36010 US-2, Sp #130, Sultan, WA 98294"
+
+resume_header_contact_info:     "36010 US-2, Sp #130, Sultan, WA 98294 • 425-319-2332 • brianbauska@gmail.com"
+display_header_contact_info:    "true"
+
+resume_header_intro: "<p>Senior Systems/Data Analyst, where 40,000+ hours (almost 20 years) of experience will contribute.
+Documented ability to analyze, integrate, move, and ‘model’ large volumes of enterprise data into useful data warehouses for multiple business needs.  
+Work well independently and with teams in both private and government sectors.</p>
+<p>Warehouse Management - 10+ years designing, developing, and maintaining Oracle, DEC, and SQL RDBMS's.</p>"
+
+# use "yes" to display the email contact button,
+# "no" to display an "I'm not looking for work" message,
+# or remove the resume_looking_for_work option entirely
+# to leave blank
+resume_looking_for_work:        "yes"
+
+# Decide which sections to use
+# comment out to hide
+resume_section_experience:      true
+resume_section_education:       true
+resume_section_projects:        true
+resume_section_skills:          true
+resume_section_recognition:     false
+resume_section_links:           true
+resume_section_associations:    false
+# resume_section_interests:       true
+
+# Resume social links
+# uncomment the options you wish to display, and add your own URL
+resume_social_links:
+  resume_github_url:            "https://github.com/bbauska"
+  resume_twitter_url:           "https://twitter.com/bbauska"
+  resume_medium_url:            "https://medium.com/@brianbauska"
+  resume_dribbble_url:          "https://dribbble.com/bbauska"
+  resume_facebook_url:          "https://www.facebook.com/brianbauska"
+  resume_linkedin_url:          "https://www.linkedin.com/in/brian-bauska-89240679"
+  resume_instagram_url:         "https://www.instagram.com/brianbauska/"
+  resume_website_url:           "https://brians-resume.bauska.org"
+  resume_snapchat_url:          "https://snapchat.com/brianbauska"
+resume_print_social_links:      true
+
+# Design settings
+resume_theme:                   default
+
+# Note: when editing locally, remember to restart
+# your Jekyll server when you edit this file. Changes
+# to _config.yml are only recognized when the server starts
